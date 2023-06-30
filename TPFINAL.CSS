@@ -1,0 +1,51 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+img{
+   width: 200px;
+   height: 200%; 
+   
+ }
+ .div button{
+cursor:pointer;
+border: 3px solid #0d0d0eee;
+border-radius: 5px;
+color: rgb(9, 10, 10);
+text-transform: uppercase;
+background-color: transparent;
+padding: 20px 35px;
+box-shadow: rgb(3, 3, 3);
+
+ }
+ .button:hover{
+ background-color:rgb(12, 12, 13);
+ }
+ div img{
+  height: 15px;
+  width: 16px ;
+ }
+ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-left: 2%;
+   padding-right: 2%;
+   font-weight: bold;
+}
+ul li{
+   display: inline-block;
+   padding: 0px;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+a:hover{
+   color:aquamarine;
+}
+.map iframe{
+   margin-left: 10%;
+   margin-top: 10%;
+}
